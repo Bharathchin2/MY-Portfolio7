@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madire Bharath - Portfolio</title>
+    <link rel="stylesheet" href="anime.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:wght@300..800&family=Playfair+Display:wght@400..900&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Added a little custom CSS to handle the updated section headers */
+        .services-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .service-card {
+            flex: 1 1 300px; /* Allows cards to wrap nicely */
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .service-card i {
+            font-size: 3rem;
+            color: #007bff; /* Adjust to match your theme color */
+            margin-bottom: 15px;
+        }
+        .service-card ul {
+            text-align: left;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .service-card li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div id="loading-screen">
+        <div class="loading-content">
+            <i class="fa-solid fa-laptop-code fa-5x main-icon hidden"></i>
+            <h1 id="loading-text" class="hidden">MY PROFILE</h1>
+            <div class="sub-icons">
+                <i class="fa-brands fa-github fa-2x hidden"></i>
+                <i class="fa-solid fa-code fa-2x hidden"></i>
+                <i class="fa-solid fa-user fa-2x hidden"></i>
+            </div>
+            <h2 id="designer-text" class="hidden">Designed by Bharath</h2>
+        </div>
+    </div>
+
+    <header class="header-list">
+        <div class="div-list ">
+            <ul class="ul-list">
+                <li class="active">
+                    <i class="fa-regular fa-house"></i>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <i class="fa-regular fa-address-card"></i>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <i class="fa-regular fa-folder-open"></i>
+                    <a href="#project">Projects</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-certificate"></i>
+                    <a href="#services">Credentials</a>
+                </li>
+                <li>
+                    <i class="fa-regular fa-envelope"></i>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <p class="home-p">
+            <span class="home-s">. </span>Available for Data & Development roles
+        </p>
+        <div class="home-container">
+            <div class="home-section">
+                <div class="info-home">
+                    <h1>Hi, I'm Madire Bharath</h1>
+                    <h3>CSE Graduate | Data Analyst & Front-End Developer</h3>
+                    <div class="info-p">
+                        <p>Detail-oriented Computer Science graduate bridging the gap between raw data and actionable insights.</p>
+                        <p>I leverage strong expertise in data analytics, business intelligence, and front-end development</p>
+                        <p>to build impactful dashboards, automate workflows, and drive strategic decision-making.</p>
+                    </div>
+                    <div class="info-p2">
+                        <p><i class="fa-solid fa-location-dot"></i> Hyderabad, Telangana, India</p>
+                        <p><i class="fa-solid fa-briefcase"></i> Available Now</p>
+                    </div>
+                    <div class="btnn">
+                        <a href="#contact"><button class="btn-home1"><i class="fa-solid fa-arrow-right"></i> Hire Me</button></a>
+                        <button class="btn-home2"><i class="fa-solid fa-file-pdf"></i> Download CV</button>
+                    </div>
+                    <div class="hhr">
+                        <hr>
+                    </div>
+                    <div class="follow">
+                        <p class="followw">Follow me:</p>
+                        <ul>
+                            <li><a href="https://github.com/Bharathchin2" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/bharath-madire-a7a938231/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><a href="mailto:bharathchintu0011@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <img src="images/img2.jpg" alt="Madire Bharath">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <p id="about">ABOUT ME</p>
+        <div class="title">
+            <h1>Turning Complex Data</h1>
+            <h1>Into Meaningful Solutions</h1>
+        </div>
+        <div class="hrrr">
+            <hr>
+        </div>
+        <div class="about-container">
+            <div class="info-about">
+                <div class="about-info">
+                    <p>
+                        I am an analytical and detail-oriented Computer Science Engineering graduate (Class of 2025) with a passion for solving real-world problems through technology. My core strength lies in combining technical skills in Python, SQL, and Java with a keen business acumen.
+                    </p>
+                    <p>
+                        I specialize in creating interactive dashboards using Power BI and Tableau, and developing responsive front-end interfaces. My goal is to optimize processes and drive efficiency through data visualization, automation, and clean software design. I am a collaborative team player eager to contribute to data-driven projects.
+                    </p>
+                </div>
+                <h2>My Background & Core Competencies</h2>
+                <div class="card">
+                    <div class="c1">
+                        <h3><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+                        <p><strong>BE in CSE (2021-2025)</strong><br>Chandigarh University, Mohali<br>CGPA: 7.1/10.0</p>
+                        <p style="margin-top: 5px; font-size: 0.9em;">Intermediate: 95% | SSC: 83%</p>
+                    </div>
+                    <div class="c1">
+                        <h3><i class="fa-solid fa-code"></i> Programming & Web</h3>
+                        <p>Python, Java, SQL, JavaScript, HTML, CSS, DSA, OOPs.</p>
+                    </div>
+                    <div class="c1">
+                        <h3><i class="fa-solid fa-chart-pie"></i> Data & BI Tools</h3>
+                        <p>Power BI, Tableau, Excel, MySQL, Google Sheets, Jupyter Notebook.</p>
+                    </div>
+                </div>
+            </div>
+            <img src="images/img.jpg" alt="Data Analytics Graphic">
+        </div>
+    </section>
+
+    <section class="project" id="project">
+        <p>PROJECTS</p>
+        <h1>Featured Work & Case Studies</h1>
+        <hr>
+        <div class="info-pro">
+            <p>A showcase of my recent projects demonstrating expertise in data analytics,</p>
+            <p>machine learning, and full-stack web solutions.</p>
+        </div>
+        <div class="projects-container">
+
+            <div class="project-card">
+                <img src="images/1st project.png" alt="Sales Analytics Dashboard">
+                <h3>Sales Analytics Dashboard</h3>
+                <p>Interactive Power BI dashboard analyzing Superstore KPIs. Engineered ETL workflows using Python/SQL, improving query efficiency by 35%.</p>
+                <div class="skills">
+                    <a href="#">Power BI</a>
+                    <a href="#">Python</a>
+                    <a href="#">SQL</a>
+                </div>
+                <div class="btns">
+                    <a href="YOUR_GITHUB_LINK_HERE" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+            </div>
+
+            <div class="project-card">
+                 <img src="images/2rd project.png" alt="AI Crowd Analysis">
+                <h3>AI-Augmented Crowd Behavior Analysis</h3>
+                <p>Real-time AI system using Computer Vision and ML to detect abnormal crowd behaviors, enhancing public safety.</p>
+                <div class="skills">
+                    <a href="#">Python</a>
+                    <a href="#">OpenCV</a>
+                    <a href="#">Machine Learning</a>
+                </div>
+                <div class="btns">
+                    <a href="YOUR_GITHUB_LINK_HERE" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                 <img src="images/3rd project.png" alt="Disease Prediction ML">
+                <h3>Disease Prediction using ML</h3>
+                <p>Developed predictive models (Random Forest, SVM) for disease likelihood forecasting, achieving 85% prediction accuracy.</p>
+                <div class="skills">
+                    <a href="#">Python</a>
+                    <a href="#">Scikit-learn</a>
+                    <a href="#">Pandas</a>
+                </div>
+                <div class="btns">
+                    <a href="YOUR_GITHUB_LINK_HERE" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                 <img src="images/4th project.png" alt="Metro Commute System">
+                <h3>Metro Commute System Optimization</h3>
+                <p>Implemented data analytics to optimize metro scheduling, directly reducing passenger delays by 20%.</p>
+                <div class="skills">
+                    <a href="#">Excel</a>
+                    <a href="#">Power BI</a>
+                    <a href="#">Data Analysis</a>
+                </div>
+                <div class="btns">
+                    <a href="#" class="btn" target="_blank"><i class="fab fa-github"></i> View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                 <img src="images/5th project.png" alt="Bamboo Events Website">
+                <h3>Bamboo Events Business Website</h3>
+                <p>Designed a responsive event management website. Improved web engagement by 50% through responsive design implementation.</p>
+                <div class="skills">
+                    <a href="#">HTML</a>
+                    <a href="#">CSS</a>
+                    <a href="#">JavaScript</a>
+                    <a href="#">Analytics</a>
+                </div>
+                <div class="btns">
+                    <a href="YOUR_GITHUB_LINK_HERE" class="btn" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="#" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                 <img src="images/6th project.png" alt="Network Monitoring">
+                <h3>Network Monitoring System</h3>
+                <p>Developed a comprehensive system to track network performance, ensuring optimal uptime and quick issue identification.</p>
+                <div class="skills">
+                    <a href="#">Networking</a>
+                    <a href="#">Analysis</a>
+                    <a href="#">Tools</a>
+                </div>
+                <div class="btns">
+                    <a href="#" class="btn" target="_blank"><i class="fab fa-github"></i> View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <p>CREDENTIALS</p>
+        <h1>Certifications & Achievements</h1>
+        <hr>
+        <div class="services-container">
+
+            <div class="service-card">
+                <i class="fa-solid fa-certificate"></i>
+                <h3>Data & Analytics Certifications</h3>
+                <ul>
+                    <li>SQL for Data Science (UC Davis)</li>
+                    <li>Google Data Analytics Certification</li>
+                    <li>Data Analyst Certification (IBM)</li>
+                    <li>Data Analytics Job Simulation (Deloitte & Forage)</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Web & Design Certifications</h3>
+                <ul>
+                    <li>Introduction to Web Development (IBM)</li>
+                    <li>Principles of UX/UI Design (Meta/Coursera)</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-trophy"></i>
+                <h3>Key Achievements</h3>
+                <ul style="text-align: left;">
+                    <li>Increased dashboard efficiency by 35% via optimized SQL.</li>
+                    <li>Achieved 85% ML accuracy for disease prediction.</li>
+                    <li>Reduced metro passenger delays by 20%.</li>
+                    <li>Improved website engagement by 50%.</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <p>CONTACT</p>
+        <h1>Get in Touch</h1>
+        <div class="contact-content">
+            <div class="contact-info slide-in-left">
+                <p>I'm always open to discuss data analytics projects, front-end opportunities, or exciting collaborations. Feel free to reach out!</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>bharathchintu0011@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+91-7993947520</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Hyderabad, Telangana, India</span>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/Bharathchin2" class="social-link" target="_blank" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/bharath-madire-a7a938231/" class="social-link" target="_blank" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:bharathchintu0011@gmail.com" class="social-link" target="_blank" aria-label="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-form slide-in-right">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required name="user_name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required name="user_email">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-send">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <h2 class="footer-logo">Madire Bharath</h2>
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#services">Credentials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="footer-social">
+                <a href="https://github.com/Bharathchin2" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/bharath-madire-a7a938231/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p class="footer-copy">&copy; 2025 Madire Bharath. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="anime.js"></script>
+</body>
+</html>
+
